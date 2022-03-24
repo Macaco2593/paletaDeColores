@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#codigo{
+    padding: 15px 5px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+#textArea{
+    min-height: 128px;
+    max-width: 720px;
+    min-width: 244px;
+    max-height: 580px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    display: block;
+    outline: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 20px;
+}
+#container{
+    border: solid gray 1px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#btns{
+    padding: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#btns input, button{
+    padding: 2px;
+    border-radius: 5px;
+}
